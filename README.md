@@ -25,7 +25,7 @@
     ],
     }
 * create 'src' folder and create 'style.css' file in 'src' folder
-* create index.html file into root folder and link 'src/style.css'  file like  <link rel="stylesheet" href="/src/styles.css">
+* create index.html file into root folder and link 'src/style.css'  file like  <link rel="stylesheet" href="./src/style.css">
 * add tailwindcss code into style.css 
     /* src/styles.css */
     @tailwind base;
@@ -64,4 +64,6 @@
 * reinstall 'rollup-plugin-postcss' if get error using command
     "npm install rollup-plugin-postcss --save-dev"
 * Now finally run 'npm run dev' see the localhost server opened in browser like - 'http://localhost:5173' or 'http://localhost:3000'
+* for building production version run 'npm run build' it will create dist folder and index.html in it. after chnaging some css class you will see index.html file of dist folder linked css file also have changed and minified version created. 
+
 
